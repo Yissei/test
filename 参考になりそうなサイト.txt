@@ -2,6 +2,7 @@
 
 iniファイル読み込み
 https://qiita.com/mimitaro/items/3506a444f325c6f980b2
+https://www.naka-sys.okinawa/python-configparser-ini-files/#st-toc-h-15
 
 scanf
 https://www.haya-programming.com/entry/2018/04/10/155957
