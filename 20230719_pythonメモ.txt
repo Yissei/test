@@ -1,6 +1,9 @@
 〇exe化
 https://camp.trainocate.co.jp/magazine/pyinstaller-python-exe/
 
+〇クラス、メソッド、インスタンス、self
+https://camp.trainocate.co.jp/magazine/python-class/
+
 〇try-catch
 https://note.nkmk.me/python-try-except-else-finally/#try-except
 
