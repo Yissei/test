@@ -34,6 +34,11 @@ https://camp.trainocate.co.jp/magazine/pyinstaller-python-exe/
 
     〇クラス分け、メソッド分けの考え方
     https://syachiku-uz.info/develop/java/752/
+        →とりあえずモジュール、クラス、メソッド分けを意識(コンストラクタの必要がなければクラスはいらないかも)
+        １．機能や似てる処理について、分類しやすいものについて分ける
+        ２．複数回同じ処理をしている部分については分ける
+        ３．メインメソッドは多分分ける事はできない　する意味もない。　本処理の手順書のようなものなので
+
 
     〇クラス、メソッド、インスタンス、self
     https://camp.trainocate.co.jp/magazine/python-class/
