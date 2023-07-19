@@ -3,3 +3,27 @@ https://camp.trainocate.co.jp/magazine/pyinstaller-python-exe/
 
 〇try-catch
 https://note.nkmk.me/python-try-except-else-finally/#try-except
+
+#tryセクションでエラーが発生した場合、except節の該当するexceptionに飛ぶ
+try
+
+#raise文で意図的に例外を作成し、発生させる事ができる。
+#引数にはエラー文を設定できる
+raise Exception(引数)
+
+#例外名を自作にしたい場合、任意の例外名でクラスを作成し、Exceptionクラスを継承する
+#特に中身の処理が必要な訳ではないので、クラスの中身はpass等でok
+class 例外クラス名@自作(Exception):
+    pass
+
+
+#except 例外名　で特定のエラーに対して処理を設定できる。
+#例外名を省略する事により、全ての例外をキャッチする事が可能
+#例外が発生しても処理を行わずスルーしたい場合、「pass」と記述する
+except
+
+#正常終了時に実行する処理を記述　例外発生時は実行されない
+else
+    
+#正常終了時、異常終了時に関わらず最後に必ず実行される
+finally
