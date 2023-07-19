@@ -1,10 +1,3 @@
-〇exe化
-https://camp.trainocate.co.jp/magazine/pyinstaller-python-exe/
-
-〇クラス、メソッド、インスタンス、self
-https://camp.trainocate.co.jp/magazine/python-class/
-https://qiita.com/baby-0105/items/c7b2d9b22780a326e4b7
-
 〇try-catch
 https://note.nkmk.me/python-try-except-else-finally/#try-except
 
@@ -31,3 +24,22 @@ else
     
 #正常終了時、異常終了時に関わらず最後に必ず実行される
 finally
+
+
+
+〇exe化
+https://camp.trainocate.co.jp/magazine/pyinstaller-python-exe/
+
+〇クラス・メソッド分けのあれこれ
+
+    〇クラス分け、メソッド分けの考え方
+    https://syachiku-uz.info/develop/java/752/
+
+    〇クラス、メソッド、インスタンス、self
+    https://camp.trainocate.co.jp/magazine/python-class/
+
+    〇ファイル分け、クラス分け、メソッド分けの方法
+    https://rikoubou.hatenablog.com/entry/2019/01/21/165232
+
+    〇self
+    https://qiita.com/baby-0105/items/c7b2d9b22780a326e4b7
