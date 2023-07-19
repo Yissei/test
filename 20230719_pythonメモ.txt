@@ -3,6 +3,7 @@ https://camp.trainocate.co.jp/magazine/pyinstaller-python-exe/
 
 〇クラス、メソッド、インスタンス、self
 https://camp.trainocate.co.jp/magazine/python-class/
+https://qiita.com/baby-0105/items/c7b2d9b22780a326e4b7
 
 〇try-catch
 https://note.nkmk.me/python-try-except-else-finally/#try-except
