@@ -21,3 +21,13 @@ https://www.internetacademy.jp/it/programming/javascript/javascript-regular-expr
 
 〇python 正規表現モジュール
 https://note.nkmk.me/python-re-match-search-findall-etc/
+
+〇python 当日・指定日付より〇日前・後の日付の取得方法
+https://step-learn.com/article/python/121-timedelta.html
+
+〇python 日付比較
+https://www.techiedelight.com/ja/compare-dates-python/
+
+〇python batファイルでの実行
+https://karupoimou.hatenablog.com/entry/2019/06/03/165414
+※autoモード、del-autoモードを作成すれば、batファイル実行だけでバックアップの更新・削除が毎日自動になる
