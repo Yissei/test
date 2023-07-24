@@ -1,0 +1,12 @@
+〇画像認識　discord.py,opencv,tesseract
+https://qiita.com/Anaakikutsushit/items/07fe4a194a5279be1fa3
+
+〇discord.py
+https://qiita.com/1ntegrale9/items/9d570ef8175cf178468f
+
+スマホ→PCに画像を送信の方式を取ると、必然的にdiscordが必須になる
+→そもそもdiscordのbotとして作っちゃえばいいんでは？
+
+PCから直接画像を取り込むには、イカリングもしくはキャプボからのスクショなどの手段が考えられる
+→多分余計な情報が無いイカリングの方が使い勝手がいいし画像解析しやすい
+→PC版のnintendo switchアプリ、イカリング3が存在するかチェック
