@@ -10,3 +10,9 @@ https://qiita.com/1ntegrale9/items/9d570ef8175cf178468f
 PCから直接画像を取り込むには、イカリングもしくはキャプボからのスクショなどの手段が考えられる
 →多分余計な情報が無いイカリングの方が使い勝手がいいし画像解析しやすい
 →PC版のnintendo switchアプリ、イカリング3が存在するかチェック
+
+〇公式docs？ discord.py
+https://discordpy.readthedocs.io/ja/latest/
+
+〇discord.py スラッシュコマンド
+https://qiita.com/Luapy/items/3abff9575e132e2955ec
