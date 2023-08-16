@@ -1,0 +1,12 @@
+〇HTML
+入門
+http://www.ink.or.jp/~bigblock/html/start_o.html
+
+〇CSS
+入門
+https://developer.mozilla.org/ja/docs/Learn/CSS/First_steps/Getting_started
+
+〇JavaScript
+入門
+（目次2 HTMLページにJavaScriptを記述する　から）
+https://www.javadrive.jp/javascript/#section_before
