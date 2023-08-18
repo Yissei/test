@@ -1,0 +1,116 @@
+■基本的なタグ
+    <html>~~~</html>
+    「これはHTML文章だよ」と宣言するタグ
+    <head>~~~</head>
+    このタグの中に基本的なページの情報を書いていく
+    <title>~~~</title>
+    ページのタイトルを指定する
+    <body>~~~</body>
+    ブラウザの中に表示させる内容を書いていく
+
+■HTMLのバージョン指定
+    HTML4.01（Strict）の場合
+        <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN"
+         "http://www.w3.org/TR/html4/strict.dtd">
+    HTML4.01（Transitional）の場合
+        <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN 
+        Transitional" "http://www.w3.org/TR/html4/loose.dtd">
+    HTML4.01（Frameset）の場合
+        <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN
+         Frameset" "http://www.w3.org/TR/html4/frameset.dtd">
+    ※バージョンの後ろ側のURLは省略してもいい
+    ※単に↓のように書くと、HTML5で作ったドキュメントである事を宣言する
+        <!DOCTYPE html>
+
+■不明
+    <html lang="ja">
+
+■タイトル
+    <head>タグの中に<title>タグを挿入して書く
+    指定しない場合、ファイル名やURLがタイトルとして表示される
+
+■文字サイズの指定
+    <basefont size = "大きさ">
+    basefont要素のsize属性
+    1~7までの半角数字で指定する
+    1が最小、7が最大
+
+■ページの文字色
+    body要素のtext属性
+    <body text = "カラーコード、色名">
+    文字色を指定
+
+■ページの背景色
+    body要素のbgcolor属性
+    <body bgcolor = "カラーコード、色名">
+    ページの背景色を指定
+
+■ページの背景画像を指定
+    body要素のbackground属性
+    <body background = "URL or path?">
+    絶対パス、相対パスどちらも可
+    透明化画像を指定する場合、bgcolor属性も指定した方が良い
+    ※複数の属性を指定する場合、半角スペースで区切る
+    例 : <body background = "URL" bgcolor = "color">
+
+■コメント
+    <!--　と
+    -->　で囲んだ部分はコメントとして扱われる
+
+■箇条書きタグ
+    <ul>タグで囲い、その中に記述した<li>タグの中身は、箇条書きとなる
+    <body>タグの中で使用する
+
+■テーブルタグ
+    <table>タグで囲った中に、<tr>タグで囲った中に、<td>タグで囲うと、テーブルになる
+    ちなみに<tr>で囲った中身が1レコードとなる<td>の数に応じて横並びの数も増える
+
+■pタグ　brタグ
+    <p>タグは文章に段落をつける　らしい
+    <p>タグを閉じて、新しく<p>タグを書くと段落？ができて改行される
+
+    <br>タグを途中に入れると改行できる
+    例 : <p>あいうえお<br>改行されたよ</p>
+    ※<br>タグは、クローラーがコンテンツを把握しにくくなるみたいなので、使わない方が良いとされている
+
+■metaタグ
+    <meta>タグを使用し、文字コードを指定できる
+    <head>タグの中で使用する
+    例 : <head>
+                <meta charset = "UTF-8">
+        </head>
+
+■article section divタグ
+    <article>タグはwebサイト内でコンテンツとして独立しているものをくくるときに使用する
+    コンテンツならこいつでくくっていい
+
+    <section>タグは文章のアウトラインを明示する事が役割
+    記事の中の章分け、パーツのようなもの
+    内部にできるだけ<h1>を持つことが推奨されている
+    →<h1>での見出しが必須と思えば、使う場面もイメージが付くかも
+
+    <div>タグはひとかたまりの範囲として定義
+
+■detail要素open属性
+    <detail open>で囲うと、その中身がクリックするまで隠れる
+
+■input要素
+    type属性 = 何の要素なのか確定する text → テキストボックス　button → ボタン
+    name属性 = そのinputの名前を決める idのようなもの？
+    value属性 = そのinputの初期値を決める　ちなみにボタンならボタンの表示名、テキストボックスなら初期値になる(ユーザーによる書き込みも可)
+    size属性 = 横幅を替えられる
+
+■textarea要素
+    複数行のテキストボックス
+
+■select要素
+    ドロップダウンリスト
+    name属性 = 名前を決める
+    ■option要素
+        value属性 = ドロップダウンリストの値の役割を担う　option要素を複数用意する事で値を追加可能
+        selected属性 = 付与されたoptionタグの中身の値が初期値となる
+        ※value属性に = ""を指定し、タグの中身を「選択してください」等でUIをよくすることもできる
+
+    ■optgroup
+        option要素をグルーピングできる
+        label属性 = グループの名前を指定
