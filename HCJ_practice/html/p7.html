@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang = "ja">
+    <head>
+        <meta charset="UTF-8">
+        <title>イベントを外部に記載</title>
+        <link rel="stylesheet" href="p7.css">
+    </head>
+    <body>
+        <div class = "title_background title_text">
+            <div>TEST</div>
+        </div>
+        <div class = "box body_text1">
+            <select>
+                <option value = "">選択してね</option>
+                <optgroup label = "test1">
+                    <option value>test1-1</option>
+                    <option value>test1-2</option>
+                </optgroup>
+            </select>
+            <input type="button" name="tstbtn" value = "確定" onclick=test()></input>
+        </div>
+
+        <script>
+            function test(){
+                alert("押された");
+            }
+        </script>
+    </body>
+</html>

@@ -1,0 +1,31 @@
+body{
+    background-color:rgb(215, 216, 177);
+}
+.title_text{
+    font-size:30px;
+    tab-size:4;
+    font-weight:bold;
+    text-align:center;
+}
+.title_background{
+    background-color:white;
+    max-width:500px;
+    width:80%;
+    margin:0 auto;
+    border-radius:10px;
+}
+.body_text1{
+    vertical-align:top;
+    text-align:center;
+    
+}
+/*枠部分*/
+.box{
+    position:relative;
+    top:30px;
+    background-color:white;
+    max-width:800px;
+    border-radius: 10px;
+    width:80%;
+    margin:0 auto;
+}
