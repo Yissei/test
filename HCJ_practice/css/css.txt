@@ -1,0 +1,44 @@
+■基本構文
+    セレクタ{プロパティ:値;}
+    
+    セレクタ{
+        プロパティ:値;
+    }
+
+    セレクタ{
+        プロパティ1:値;
+        プロパティ1:値;
+    }
+
+
+■セレクタ
+    どのHTML要素にCSSを適用させるのかを指定
+    (例1)body{ ~~;}
+        →body要素全般に適用
+    (例2).class{ ~~;}
+        →指定したclassに適用　class名先頭に必ず「.」を入れる事
+    (例3)#id{ ~~;}
+        →指定したidに適用　id名先頭に必ず「#」を入れる事
+
+■プロパティ
+    線、色、背景等、何を変更するのかを指定する部分
+    color
+    font
+    font-size(フォントサイズ)
+    font-weight(フォントの太さ)
+    text-align(水平方向の表示位置)
+    vertical-align(垂直方向の表示位置)
+    background
+    boader padding
+    ...etc
+    https://web-designer.cman.jp/css_ref/function_list/
+
+■値
+    プロパティに対する値
+    プロパティごとに書き方がある
+    #000
+    10px
+    solid
+    ...etc
+
+    
