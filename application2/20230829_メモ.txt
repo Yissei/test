@@ -1,0 +1,6 @@
+ファイルの読み込み(csvとか)
+import pandas as pd
+グラフ出力
+import matplotlib.pyplot as plt
+言語パッケージみたいな　matplotに読み込むデータの中に日本語が含まれている場合、これを使っても文字化けを回避する
+import japanize_matplotlib
