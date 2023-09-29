@@ -1,0 +1,7 @@
+#button{
+    background-color : rgb(140, 140, 252);
+    max-width:100px;
+    border-radius:5px;
+    text-align:center;
+    color:white;
+}
