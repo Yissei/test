@@ -4,3 +4,6 @@ https://rseiub.com/80
 
 ・PG終了
 https://pasopet.com/exit_from_program
+
+・通知表示
+https://office54.net/python/app/plyer-notification-banner
