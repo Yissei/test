@@ -17,6 +17,7 @@ while True:
             sys.exit(0)
         else:
             print("w以外が入力、もしくはtimeout")
+        #初回のみコンソールに表示したい文があればここで表示
         if (firstRunMode):
             print("\"w\"と入力(終了する場合は\"end\")")
             firstRunMode = False
