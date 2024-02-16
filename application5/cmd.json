@@ -1,0 +1,22 @@
+{
+    "CmdPrompt":{
+        "cmd1":{
+            "summary":"テスト用cmd1",
+            "syntax":"cmd1[半角スペース]test1\\nコマンドの例文とかを書くよ"
+        },
+        "cmd2":{
+            "summary":"テスト用cmd2",
+            "syntax":"cmd2[半角スペース]test2\\nコマンドの例文とかを書くよ"
+        }
+    },
+    "PowerShell":{
+        "ps1":{
+            "summary":"テスト用ps1",
+            "syntax":"ps1[半角スペース]test1\\nコマンドの例文とかを書くよ"
+        },
+        "ps2":{
+            "summary":"テスト用ps2",
+            "syntax":"ps2[半角スペース]test2\\nコマンドの例文とかを書くよ"
+        }
+    }
+}
