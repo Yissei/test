@@ -1,5 +1,8 @@
 #コマンドライン引数・PG終了用
 import sys
+#pause用
+import os
+#json読込用
 import ComJson as cj
 
 #処理終了判定用フラグ
@@ -44,8 +47,39 @@ while endFlg:
     else:
         #入力値チェック
         if not str.isdecimal(inputValue):
-            print("数値を入力してください")
+            #数値以外の場合
+            print("画面に表示された番号を入力してください\n")
+            os.system("PAUSE")
+            continue
+        if (int(inputValue) < 1) or (int(inputValue) > len(cmdList)):
+            #インデックスを超える、もしくは1より小さい場合
+            print("指定された番号は存在しません\n")
+            os.system("PAUSE")
             continue
         #入力された番号のコマンドに関する情報をjsonより取得
-        #strCmdName = cmdList[inputValue - 1]
-        print(cmdList[int(inputValue) - 1][""])
+        #strCmdName = cmdList[inputValue - 1]        
+        cmdName = cmdList[int(inputValue) - 1] #コマンド名
+        syntax = "" #構文
+        summary = "" #概要
+        
+        #概要、構文を取得
+        summary = cj.getValue(cj.SEC_CMD, str(cmdList[int(inputValue) - 1]), cj.KEY_SUMMARY)
+        if summary is None:
+            summary = cj.getValue(cj.SEC_POW, str(cmdList[int(inputValue) - 1]), cj.KEY_SUMMARY)
+            if summary is None:
+                summary = "ERROR"
+        syntax = cj.getValue(cj.SEC_CMD, str(cmdList[int(inputValue) - 1]), cj.KEY_SYNTAX)
+        if syntax is None:
+            syntax = cj.getValue(cj.SEC_POW, str(cmdList[int(inputValue) - 1]), cj.KEY_SYNTAX)
+            if syntax is None:
+                syntax = "ERROR"
+
+        syntaxArray = str(syntax).split(",")
+        syntax = ""
+        for cntJ in range(len(syntaxArray)):
+            if cntJ == 0:
+                syntax += "\n      構文 = " + syntaxArray[cntJ]
+            else:
+                syntax += "\n             " + syntaxArray[cntJ]
+        print("\n" + "コマンド名 = " + str(cmdName) + "\n      概要 = " + str(summary) + str(syntax) + "\n")
+        os.system("PAUSE")
