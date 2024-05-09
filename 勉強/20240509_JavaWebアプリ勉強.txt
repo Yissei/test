@@ -1,0 +1,16 @@
+バックエンド
+	java...バックエンド言語
+	apache...コンピュータをWebサーバーとして動かす際に必要
+	tomcat...Java Servletを動かす際に必要なコンテナ役
+			⇒フロントエンドからHTMLリクエスト送信
+			　⇒tomcatが受け取り、java servletに命令を出す
+			　　⇒つまり、フロントエンドとjava servletとの中継役
+			　　　※java servletとは、サーバー側で呼び出されて実行されるJavaクラスの事
+
+フロントエンド
+	jsp...aspxのjava版（当時はHTMLにC#言語をスクリプトに混ぜていたが、これのjava版と思えばいい。フロントエンド側で動く）
+	css...スタイルシート。見た目。
+
+フレームワーク
+	struts...JavaのWebアプリケーション用フレームワーク
+			https://qiita.com/ebichan_88/items/aaae17e72d068517f33f
