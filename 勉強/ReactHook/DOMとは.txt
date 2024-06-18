@@ -1,0 +1,15 @@
+Document Object Modelの略
+HTML・XML文書を取り扱う為のAPI
+
+HTML・XMLのドキュメントに含まれる要素・要素に含まれるテキストデータを
+オブジェクトモデルとして扱う
+JavaScriptなど様々なPG言語からオブジェクトを扱うためのAPIを提供
+⇒端的に言えば、JavaScript等からHTML・XMLにアクセスできるようにするAPI
+
+これを利用する事により、JavaScriptからHTMLを動的に変更する事が可能になる
+
+よって、レンダリングと関連性が高い。
+⇒JavaScriptはweb上で動くため、DOMも本来はweb上で動く
+　ただし、Reactも内部にDOMを持っており、
+　web上でのDOMと比較し、差分を出す事により
+　そこだけ変更すればよい = パフォーマンスが上がる　という仕組みである
